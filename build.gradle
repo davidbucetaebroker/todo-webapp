@@ -28,4 +28,8 @@ dependencies {
 			'taglibs:standard:1.1.2'
 }
 
+task wrapper (type: Wrapper){
+	gradleVersion = '2.0'
+}
+
 
